@@ -7,6 +7,10 @@
     --white: hsl(0, 0%, 100%);
 }
 
+html {
+    height: 100%;
+}
+
 @font-face {
     font-family: 'Outfit';
     src: url('../fonts/Outfit-VariableFont_wght.ttf');
@@ -14,7 +18,7 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: 100%;
     background-color: var(--very-dark-blue-main-bg);
     font-family: 'Outfit';
     font-size: 18px;
@@ -22,7 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 0 24px;
 }
 
 .card {
